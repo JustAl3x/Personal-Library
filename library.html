@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Library</title>
+    <script src="objects.js" defer></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Library Assistant</h1>
+        <div id="tableContainer">
+            <table id="libraryTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Pages</th>
+                    <th>Read</th>
+                </tr>
+            </table>
+        </div>
+        <div id="addBook">
+            <button>Add a book!</button>
+        </div>
+
+        <form id="bookForm">
+            <label for="title">Title:</label> <br>
+            <input type="text" name="title" id="title"> <br>
+            <label for="author">Author:</label> <br>
+            <input type="text" name="author" id="author"> <br>
+            <label for="pages">Pages:</label> <br>
+            <input type="number" name="pages" id="pages"> <br>
+            <label>Read:</label> <br>
+            <label>True </label>
+            <input type="radio" name="read" value="True"> <br>
+            <label>False </label>
+            <input type="radio" name="read" value="False"> <br>
+            <button id="submit">Submit</button>
+        </form>
+
+        
+    </body>
+</html>

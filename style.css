@@ -1,0 +1,72 @@
+/* "Constants":
+    brown (shelf) :#996633
+*/
+
+body {
+    background : rgb(94, 93, 93)
+
+}
+
+h1 {
+    text-align: center;
+}
+
+table, th, td, tr {
+    background : #996633e1;
+    border : 1px solid black;
+    border-collapse : collapse;
+    width : 30%
+}
+
+th {
+    background: #7a4918;
+}
+
+#addBook {
+    text-align : center;
+}
+
+button {
+    background : #7a4918;
+    width : 10em;
+    height : 2em;
+    border-radius : 10%;
+    border : 1px solid black;
+    outline-style : none;
+
+}
+
+button:hover {
+    cursor : pointer;
+}
+
+#submit {
+    
+}
+
+#bookForm {
+    position: relative;
+    display: none;
+    margin : 2em auto;
+    padding : 2em 2em;
+    text-align: center;
+    background : #996633;
+    max-width: 12em;
+    border : 1px solid darkgrey;
+}
+
+#bookForm input {
+    background : darkgrey;
+    border : 1px solid black;
+}
+
+#bookForm * {
+    margin : 0.8em auto;
+}
+
+
+
+
+table {
+    margin : 3em auto;
+}
